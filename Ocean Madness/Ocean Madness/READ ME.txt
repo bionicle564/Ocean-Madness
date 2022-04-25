@@ -1,0 +1,25 @@
+Ocean Madness; a simple game prototype for a sailing and shooting adventure.
+
+Simple gameplay video: https://youtu.be/6ugfQMASIZw
+Technical video: https://youtu.be/99JsPcPibEQ
+
+github link: https://github.com/bionicle564/Ocean-Madness
+
+Controls:
+	Arrow keys - Move/Aim/Sail
+	Space - activate item
+	X - shoot cannon ball
+	Z - shoot chain shot
+	Esc - close game
+
+
+Known issues:
+	about 30% of the time, the lights load oddly, this is a visual bug and does not affect the gameplay.
+	if the player model falls outside the boat you cannot get back onto the boat.
+
+	if any issues come up, just restart the game to fix it. 
+
+	I don't know why those problems come up, when developing it didn't happen in Debug, it was only once
+	I built it in Release mode that problems came up.
+
+	

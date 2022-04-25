@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{bfb67716-5cde-4106-a97f-482715c9ee75}</ProjectGuid>
+    <RootNamespace>GdpPhysics</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)PhysicsInterface;$(SolutionDir)BulletSource;$(SolutionDir)Extern\include;$(IncludePath)</IncludePath>
+    <SourcePath>$(SolutionDir)BulletSource;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)PhysicsInterface;$(SolutionDir)BulletSource;$(SolutionDir)Extern\include;$(IncludePath)</IncludePath>
+    <SourcePath>$(SolutionDir)BulletSource;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PhysicsInterface\PhysicsInterface.vcxproj">
+      <Project>{70826fd0-a824-4148-9a1c-c447348023d2}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cDebugDrawer.h" />
+    <ClInclude Include="Conversion.h" />
+    <ClInclude Include="GdpPhysics\PhysicsFactory.h" />
+    <ClInclude Include="GdpPhysics\PhysicsWorld.h" />
+    <ClInclude Include="GdpPhysics\RigidBody.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\BulletSource\Bullet3Common\b3AlignedAllocator.cpp" />
+    <ClCompile Include="..\BulletSource\Bullet3Common\b3Logging.cpp" />
+    <ClCompile Include="..\BulletSource\Bullet3Common\b3Vector3.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\BroadphaseCollision\btAxisSweep3.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\BroadphaseCollision\btBroadphaseProxy.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\BroadphaseCollision\btDbvt.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\BroadphaseCollision\btDbvtBroadphase.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\BroadphaseCollision\btDispatcher.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\BroadphaseCollision\btOverlappingPairCache.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\BroadphaseCollision\btQuantizedBvh.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\BroadphaseCollision\btSimpleBroadphase.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btBoxBoxDetector.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btCollisionDispatcher.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btCollisionDispatcherMt.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btCollisionObject.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btCollisionWorld.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btCollisionWorldImporter.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btCompoundCompoundCollisionAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btGhostObject.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btHashedSimplePairCache.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btInternalEdgeUtility.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btManifoldResult.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btSimulationIslandManager.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\btUnionFind.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionDispatch\SphereTriangleDetector.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btBox2dShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btBoxShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btCapsuleShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btCollisionShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btCompoundShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btConcaveShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btConeShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btConvex2dShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btConvexHullShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btConvexInternalShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btConvexPointCloudShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btConvexPolyhedron.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btConvexShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btCylinderShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btEmptyShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btMinkowskiSumShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btMultiSphereShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btOptimizedBvh.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btSdfCollisionShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btShapeHull.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btSphereShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btStaticPlaneShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btStridingMeshInterface.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btTetrahedronShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btTriangleBuffer.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btTriangleCallback.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btTriangleMesh.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btTriangleMeshShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\CollisionShapes\btUniformScalingShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\Gimpact\btContactProcessing.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\Gimpact\btGenericPoolAllocator.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\Gimpact\btGImpactBvh.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\Gimpact\btGImpactQuantizedBvh.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\Gimpact\btGImpactShape.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\Gimpact\btTriangleShapeEx.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\Gimpact\gim_box_set.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\Gimpact\gim_contact.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\Gimpact\gim_memory.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\Gimpact\gim_tri_collision.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\NarrowPhaseCollision\btConvexCast.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\NarrowPhaseCollision\btGjkEpa2.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\NarrowPhaseCollision\btRaycastCallback.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.cpp" />
+    <ClCompile Include="..\BulletSource\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Character\btKinematicCharacterController.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btBatchedConstraints.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btContactConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btFixedConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btGearConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolverMt.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Dynamics\btDiscreteDynamicsWorldMt.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Dynamics\btRigidBody.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Dynamics\btSimulationIslandManagerMt.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Featherstone\btMultiBody.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Featherstone\btMultiBodyConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Featherstone\btMultiBodyFixedConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Featherstone\btMultiBodyGearConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Featherstone\btMultiBodyJointMotor.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Featherstone\btMultiBodyMLCPConstraintSolver.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Featherstone\btMultiBodySliderConstraint.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Featherstone\btMultiBodySphericalJointLimit.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Featherstone\btMultiBodySphericalJointMotor.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\MLCPSolvers\btDantzigLCP.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\MLCPSolvers\btMLCPSolver.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Vehicle\btRaycastVehicle.cpp" />
+    <ClCompile Include="..\BulletSource\BulletDynamics\Vehicle\btWheelInfo.cpp" />
+    <ClCompile Include="..\BulletSource\BulletInverseDynamics\details\MultiBodyTreeImpl.cpp" />
+    <ClCompile Include="..\BulletSource\BulletInverseDynamics\details\MultiBodyTreeInitCache.cpp" />
+    <ClCompile Include="..\BulletSource\BulletInverseDynamics\IDMath.cpp" />
+    <ClCompile Include="..\BulletSource\BulletInverseDynamics\MultiBodyTree.cpp" />
+    <ClCompile Include="..\BulletSource\LinearMath\btAlignedAllocator.cpp" />
+    <ClCompile Include="..\BulletSource\LinearMath\btConvexHull.cpp" />
+    <ClCompile Include="..\BulletSource\LinearMath\btConvexHullComputer.cpp" />
+    <ClCompile Include="..\BulletSource\LinearMath\btGeometryUtil.cpp" />
+    <ClCompile Include="..\BulletSource\LinearMath\btPolarDecomposition.cpp" />
+    <ClCompile Include="..\BulletSource\LinearMath\btQuickprof.cpp" />
+    <ClCompile Include="..\BulletSource\LinearMath\btReducedVector.cpp" />
+    <ClCompile Include="..\BulletSource\LinearMath\btSerializer.cpp" />
+    <ClCompile Include="..\BulletSource\LinearMath\btSerializer64.cpp" />
+    <ClCompile Include="..\BulletSource\LinearMath\btThreads.cpp" />
+    <ClCompile Include="..\BulletSource\LinearMath\btVector3.cpp" />
+    <ClCompile Include="..\BulletSource\LinearMath\TaskScheduler\btTaskScheduler.cpp" />
+    <ClCompile Include="..\BulletSource\LinearMath\TaskScheduler\btThreadSupportPosix.cpp" />
+    <ClCompile Include="..\BulletSource\LinearMath\TaskScheduler\btThreadSupportWin32.cpp" />
+    <ClCompile Include="cDebugDrawer.cpp" />
+    <ClCompile Include="Conversion.cpp" />
+    <ClCompile Include="GdpPhysics\PhysicsFactory.cpp" />
+    <ClCompile Include="GdpPhysics\PhysicsWorld.cpp" />
+    <ClCompile Include="GdpPhysics\RigidBody.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,384 @@
+﻿  b3AlignedAllocator.cpp
+  b3Logging.cpp
+  b3Vector3.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\Bullet3Common\b3Vector3.cpp(174,53): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\Bullet3Common\b3Vector3.cpp(179,18): warning C4267: '-=': conversion from 'size_t' to 'unsigned long', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\Bullet3Common\b3Vector3.cpp(425,52): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\Bullet3Common\b3Vector3.cpp(568,53): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\Bullet3Common\b3Vector3.cpp(573,18): warning C4267: '-=': conversion from 'size_t' to 'unsigned long', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\Bullet3Common\b3Vector3.cpp(820,52): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+  btAxisSweep3.cpp
+  btBroadphaseProxy.cpp
+  btCollisionAlgorithm.cpp
+  btDbvt.cpp
+  btDbvtBroadphase.cpp
+  btDispatcher.cpp
+  btOverlappingPairCache.cpp
+  btQuantizedBvh.cpp
+  btSimpleBroadphase.cpp
+  btActivatingCollisionAlgorithm.cpp
+  btBox2dBox2dCollisionAlgorithm.cpp
+  btBoxBoxCollisionAlgorithm.cpp
+  btBoxBoxDetector.cpp
+  btCollisionDispatcher.cpp
+  btCollisionDispatcherMt.cpp
+  btCollisionObject.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionDispatch\btCollisionObject.cpp(52,1): warning C4305: 'initializing': truncation from 'double' to 'btScalar'
+  btCollisionWorld.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionDispatch\btCollisionWorld.cpp(1305,53): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+  Generating Code...
+  Compiling...
+  btCollisionWorldImporter.cpp
+  btCompoundCollisionAlgorithm.cpp
+  btCompoundCompoundCollisionAlgorithm.cpp
+  btConvex2dConvex2dAlgorithm.cpp
+  btConvexConcaveCollisionAlgorithm.cpp
+  btConvexConvexAlgorithm.cpp
+  btConvexPlaneCollisionAlgorithm.cpp
+  btDefaultCollisionConfiguration.cpp
+  btEmptyCollisionAlgorithm.cpp
+  btGhostObject.cpp
+  btHashedSimplePairCache.cpp
+  btInternalEdgeUtility.cpp
+  btManifoldResult.cpp
+  btSimulationIslandManager.cpp
+  btSphereBoxCollisionAlgorithm.cpp
+  btSphereSphereCollisionAlgorithm.cpp
+  btSphereTriangleCollisionAlgorithm.cpp
+  btUnionFind.cpp
+  SphereTriangleDetector.cpp
+  btBox2dShape.cpp
+  Generating Code...
+  Compiling...
+  btBoxShape.cpp
+  btBvhTriangleMeshShape.cpp
+  btCapsuleShape.cpp
+  btCollisionShape.cpp
+  btCompoundShape.cpp
+  btConcaveShape.cpp
+  btConeShape.cpp
+  btConvex2dShape.cpp
+  btConvexHullShape.cpp
+  btConvexInternalShape.cpp
+  btConvexPointCloudShape.cpp
+  btConvexPolyhedron.cpp
+  btConvexShape.cpp
+  btConvexTriangleMeshShape.cpp
+  btCylinderShape.cpp
+  btEmptyShape.cpp
+  btHeightfieldTerrainShape.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp(205,62): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp(843,42): warning C4244: 'argument': conversion from 'const int' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp(843,71): warning C4244: 'argument': conversion from 'const int' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp(561,70): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp(770): message : see reference to function template instantiation 'void gridRaycast<const ProcessTrianglesAction>(Action_T &,const btVector3 &,const btVector3 &,int [])' being compiled
+          with
+          [
+              Action_T=const ProcessTrianglesAction
+          ]
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp(565,71): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp(578,70): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp(582,71): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+  btMiniSDF.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.h(67,16): warning C4244: 'argument': conversion from 'double' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.h(75,16): warning C4244: 'argument': conversion from 'double' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(53,28): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(54,28): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(55,28): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(57,28): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(58,28): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(59,28): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(72,25): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(73,25): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(74,25): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(79,29): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(80,29): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(81,29): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(102,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(108,16): warning C4244: 'argument': conversion from 'unsigned __int64' to 'int', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(118,17): warning C4244: 'argument': conversion from 'unsigned __int64' to 'int', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(124,16): warning C4244: 'argument': conversion from 'unsigned __int64' to 'int', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(136,21): warning C4244: 'argument': conversion from 'unsigned __int64' to 'int', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(142,21): warning C4244: 'argument': conversion from 'unsigned __int64' to 'int', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(165,35): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(166,35): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(167,35): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(212,16): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(213,16): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(214,16): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(216,16): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(217,16): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(218,16): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(220,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(221,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(222,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(224,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(225,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(226,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(243,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(244,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(245,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(248,15): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(260,19): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(272,19): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(284,19): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(300,28): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(301,28): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(302,28): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(303,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(304,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(305,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(307,19): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(308,19): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(309,19): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(311,16): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(312,16): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(313,16): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(515,33): warning C4244: '+=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(516,33): warning C4244: '+=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.cpp(517,33): warning C4244: '+=': conversion from 'double' to 'btScalar', possible loss of data
+  btMinkowskiSumShape.cpp
+  btMultimaterialTriangleMeshShape.cpp
+  Generating Code...
+  Compiling...
+  btMultiSphereShape.cpp
+  btOptimizedBvh.cpp
+  btPolyhedralConvexShape.cpp
+  btScaledBvhTriangleMeshShape.cpp
+  btSdfCollisionShape.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.h(67,16): warning C4244: 'argument': conversion from 'double' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btMiniSDF.h(75,16): warning C4244: 'argument': conversion from 'double' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\CollisionShapes\btSdfCollisionShape.cpp(92,13): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+  btShapeHull.cpp
+  btSphereShape.cpp
+  btStaticPlaneShape.cpp
+  btStridingMeshInterface.cpp
+  btTetrahedronShape.cpp
+  btTriangleBuffer.cpp
+  btTriangleCallback.cpp
+  btTriangleIndexVertexArray.cpp
+  btTriangleIndexVertexMaterialArray.cpp
+  btTriangleMesh.cpp
+  btTriangleMeshShape.cpp
+  btUniformScalingShape.cpp
+  btContactProcessing.cpp
+  btGenericPoolAllocator.cpp
+  btGImpactBvh.cpp
+  Generating Code...
+  Compiling...
+  btGImpactCollisionAlgorithm.cpp
+  btGImpactQuantizedBvh.cpp
+  btGImpactShape.cpp
+  btTriangleShapeEx.cpp
+  gim_box_set.cpp
+  gim_contact.cpp
+  gim_memory.cpp
+  gim_tri_collision.cpp
+  btContinuousConvexCollision.cpp
+  btConvexCast.cpp
+  btGjkConvexCast.cpp
+  btGjkEpa2.cpp
+  btGjkEpaPenetrationDepthSolver.cpp
+  btGjkPairDetector.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp(36,45): warning C4305: 'initializing': truncation from 'double' to 'btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp(368,19): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp(368,52): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp(368,104): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp(368,137): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp(368,185): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp(372,21): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp(373,21): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp(411,9): warning C4244: 'return': conversion from 'double' to 'btScalar', possible loss of data
+  btMinkowskiPenetrationDepthSolver.cpp
+  btPersistentManifold.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(362,46): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(363,48): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(374,70): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(375,56): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(376,86): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(377,86): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(381,59): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(382,88): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(383,92): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(385,64): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(386,62): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(387,62): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(395,74): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(398,88): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(399,90): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(400,80): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(401,70): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp(402,70): warning C4244: '=': conversion from 'const double' to 'btScalar', possible loss of data
+  btPolyhedralContactClipping.cpp
+  btRaycastCallback.cpp
+  btSubSimplexConvexCast.cpp
+  btVoronoiSimplexSolver.cpp
+  Generating Code...
+  Compiling...
+  btKinematicCharacterController.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Character\btKinematicCharacterController.cpp(139,22): warning C4305: '=': truncation from 'double' to 'btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Character\btKinematicCharacterController.cpp(149,23): warning C4305: '=': truncation from 'double' to 'btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Character\btKinematicCharacterController.cpp(157,29): warning C4305: '=': truncation from 'double' to 'btScalar'
+  btBatchedConstraints.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\ConstraintSolver\btBatchedConstraints.cpp(169,64): warning C4244: 'argument': conversion from 'double' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\ConstraintSolver\btBatchedConstraints.cpp(661,51): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\ConstraintSolver\btBatchedConstraints.cpp(858,57): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\ConstraintSolver\btBatchedConstraints.cpp(860,48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  btConeTwistConstraint.cpp
+  btContactConstraint.cpp
+  btFixedConstraint.cpp
+  btGearConstraint.cpp
+  btGeneric6DofConstraint.cpp
+  btGeneric6DofSpring2Constraint.cpp
+  btGeneric6DofSpringConstraint.cpp
+  btHinge2Constraint.cpp
+  btHingeConstraint.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp(304,19): warning C4305: 'initializing': truncation from 'double' to 'btScalar'
+  btNNCGConstraintSolver.cpp
+  btPoint2PointConstraint.cpp
+  btSequentialImpulseConstraintSolver.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp(76,22): warning C4244: 'return': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp(100,22): warning C4244: 'return': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp(202,30): warning C4244: 'return': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp(255,30): warning C4244: 'return': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp(313,22): warning C4244: 'return': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp(347,30): warning C4244: 'return': conversion from 'double' to 'btScalar', possible loss of data
+  btSequentialImpulseConstraintSolverMt.cpp
+  btSliderConstraint.cpp
+  btSolve2LinearConstraint.cpp
+  btTypedConstraint.cpp
+  btUniversalConstraint.cpp
+  btDiscreteDynamicsWorld.cpp
+  Generating Code...
+  Compiling...
+  btDiscreteDynamicsWorldMt.cpp
+  btRigidBody.cpp
+  btSimpleDynamicsWorld.cpp
+  btSimulationIslandManagerMt.cpp
+  btMultiBody.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBody.cpp(1971,38): warning C4244: '=': conversion from 'int' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBody.cpp(2014,19): warning C4244: 'initializing': conversion from 'btScalar' to 'int', possible loss of data
+  btMultiBodyConstraint.cpp
+  btMultiBodyConstraintSolver.cpp
+  btMultiBodyDynamicsWorld.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp(711,71): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp(719,46): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp(724,93): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp(733,96): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp(742,96): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+  btMultiBodyFixedConstraint.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyFixedConstraint.cpp(194,32): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyFixedConstraint.cpp(200,32): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyFixedConstraint.cpp(207,32): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyFixedConstraint.cpp(213,32): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+  btMultiBodyGearConstraint.cpp
+  btMultiBodyJointLimitConstraint.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp(118,22): warning C4244: 'initializing': conversion from 'int' to 'btScalar', possible loss of data
+  btMultiBodyJointMotor.cpp
+  btMultiBodyMLCPConstraintSolver.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyMLCPConstraintSolver.cpp(88,40): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyMLCPConstraintSolver.cpp(88,27): warning C4244: 'initializing': conversion from 'double' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyMLCPConstraintSolver.cpp(107,40): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyMLCPConstraintSolver.cpp(107,27): warning C4244: 'initializing': conversion from 'double' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyMLCPConstraintSolver.cpp(163,41): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyMLCPConstraintSolver.cpp(163,28): warning C4244: 'initializing': conversion from 'double' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyMLCPConstraintSolver.cpp(174,41): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyMLCPConstraintSolver.cpp(174,28): warning C4244: 'initializing': conversion from 'double' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyMLCPConstraintSolver.cpp(213,41): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyMLCPConstraintSolver.cpp(213,28): warning C4244: 'initializing': conversion from 'double' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyMLCPConstraintSolver.cpp(224,41): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyMLCPConstraintSolver.cpp(224,28): warning C4244: 'initializing': conversion from 'double' to 'const btScalar', possible loss of data
+  btMultiBodyPoint2Point.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp(195,32): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp(201,32): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp(208,32): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp(214,32): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+  btMultiBodySliderConstraint.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySliderConstraint.cpp(213,32): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySliderConstraint.cpp(219,32): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySliderConstraint.cpp(226,32): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySliderConstraint.cpp(232,32): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+  btMultiBodySphericalJointLimit.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySphericalJointLimit.cpp(46,1): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySphericalJointLimit.cpp(208,26): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySphericalJointLimit.cpp(222,19): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySphericalJointLimit.cpp(242,29): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySphericalJointLimit.cpp(242,8): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySphericalJointLimit.cpp(268,32): warning C4305: 'argument': truncation from 'double' to 'btScalar'
+  btMultiBodySphericalJointMotor.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySphericalJointMotor.cpp(36,1): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySphericalJointMotor.cpp(146,26): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySphericalJointMotor.cpp(160,19): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySphericalJointMotor.cpp(166,29): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\Featherstone\btMultiBodySphericalJointMotor.cpp(166,7): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+  btDantzigLCP.cpp
+  btLemkeAlgorithm.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\LinearMath\btMatrixX.h(108,18): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\LinearMath\btMatrixX.h(70): message : while compiling class template member function 'T btVectorX<T>::nrm2(void) const'
+          with
+          [
+              T=float
+          ]
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp(248): message : see reference to function template instantiation 'T btVectorX<T>::nrm2(void) const' being compiled
+          with
+          [
+              T=float
+          ]
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.h(81): message : see reference to class template instantiation 'btVectorX<float>' being compiled
+  btMLCPSolver.cpp
+  Generating Code...
+  Compiling...
+  btRaycastVehicle.cpp
+  btWheelInfo.cpp
+  MultiBodyTreeImpl.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletInverseDynamics\details\IDLinearMathInterface.hpp(51,77): warning C4244: 'argument': conversion from 'double' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletInverseDynamics\details\MultiBodyTreeImpl.cpp(23,27): warning C4305: '=': truncation from 'double' to 'idScalar'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletInverseDynamics\details\MultiBodyTreeImpl.cpp(939,30): warning C4244: 'argument': conversion from 'const double' to 'const idScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletInverseDynamics\details\MultiBodyTreeImpl.cpp(945,30): warning C4244: 'argument': conversion from 'const double' to 'const idScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletInverseDynamics\details\MultiBodyTreeImpl.cpp(979,30): warning C4244: 'argument': conversion from 'const double' to 'const idScalar', possible loss of data
+  MultiBodyTreeInitCache.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletInverseDynamics\details\IDLinearMathInterface.hpp(51,77): warning C4244: 'argument': conversion from 'double' to 'const btScalar', possible loss of data
+  IDMath.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletInverseDynamics\details\IDLinearMathInterface.hpp(51,77): warning C4244: 'argument': conversion from 'double' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletInverseDynamics\IDMath.cpp(262,31): warning C4244: 'initializing': conversion from 'double' to 'idScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletInverseDynamics\IDMath.cpp(262,25): warning C4244: 'initializing': conversion from 'double' to 'const idScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletInverseDynamics\IDMath.cpp(455,4): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletInverseDynamics\IDMath.cpp(498,9): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+  MultiBodyTree.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletInverseDynamics\details\IDLinearMathInterface.hpp(51,77): warning C4244: 'argument': conversion from 'double' to 'const btScalar', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\BulletInverseDynamics\MultiBodyTree.cpp(277,32): warning C4244: 'argument': conversion from 'double' to 'const btScalar', possible loss of data
+  btAlignedAllocator.cpp
+  btConvexHull.cpp
+  btConvexHullComputer.cpp
+  btGeometryUtil.cpp
+  btPolarDecomposition.cpp
+  btQuickprof.cpp
+  btReducedVector.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\LinearMath\btReducedVector.h(299,17): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+  btSerializer.cpp
+  btSerializer64.cpp
+  btThreads.cpp
+  btVector3.cpp
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\LinearMath\btVector3.cpp(179,53): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\LinearMath\btVector3.cpp(184,18): warning C4267: '-=': conversion from 'size_t' to 'unsigned long', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\LinearMath\btVector3.cpp(430,52): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\LinearMath\btVector3.cpp(572,53): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\LinearMath\btVector3.cpp(577,18): warning C4267: '-=': conversion from 'size_t' to 'unsigned long', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\BulletSource\LinearMath\btVector3.cpp(824,52): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+  btTaskScheduler.cpp
+  btThreadSupportPosix.cpp
+  btThreadSupportWin32.cpp
+  Generating Code...
+  Compiling...
+  cDebugDrawer.cpp
+  Conversion.cpp
+  PhysicsFactory.cpp
+  PhysicsWorld.cpp
+  RigidBody.cpp
+  Generating Code...
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\GdpPhysics\Conversion.cpp(160): warning C4715: 'gdpPhysics::CastBulletShape': not all control paths return a value
+  GdpPhysics.vcxproj -> D:\$School\$GDP2\GameJam\$code\Ocean Madness\x64\Debug\GdpPhysics.lib

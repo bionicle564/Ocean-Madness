@@ -1,0 +1,31 @@
+﻿  0 File(s) copied
+  theMain.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\include\glad\glad.h(32): message : see previous definition of 'APIENTRY'
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\Ocean Madness\theMain.cpp(82,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\Ocean Madness\theMain.cpp(534,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\Ocean Madness\theMain.cpp(541,31): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\Ocean Madness\theMain.cpp(727,53): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\Ocean Madness\theMain.cpp(739,61): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\Ocean Madness\theMain.cpp(760,53): warning C4244: '-=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\Ocean Madness\theMain.cpp(770,61): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\Ocean Madness\theMain.cpp(810,63): warning C4244: '-=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\Ocean Madness\theMain.cpp(837,63): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\$School\$GDP2\GameJam\$code\Ocean Madness\Ocean Madness\theMain.cpp(921,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Ocean Madness.vcxproj -> D:\$School\$GDP2\GameJam\$code\Ocean Madness\x64\Debug\Ocean Madness.exe

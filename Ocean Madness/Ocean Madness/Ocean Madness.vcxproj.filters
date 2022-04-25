@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TextureManager">
+      <UniqueIdentifier>{eab4f290-d196-473b-a737-a62b79de0da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{6c01bad0-bcf1-461c-8b9f-5f827309aa89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader files">
+      <UniqueIdentifier>{d681b907-e8a3-4841-ac1f-a8aba0058a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh files">
+      <UniqueIdentifier>{514b9934-4a18-4a54-a9b8-87c94ac6dd89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loader">
+      <UniqueIdentifier>{6eaa01ce-8e70-407c-894d-2073184be5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light files">
+      <UniqueIdentifier>{a9f0f5f2-927f-47df-a318-21c2b6ef299c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input files">
+      <UniqueIdentifier>{689e69b5-3883-4180-8903-20170abec120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global files">
+      <UniqueIdentifier>{e80e055c-a5c4-4966-8306-e65d8dc14be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBO">
+      <UniqueIdentifier>{4b96669f-b6a3-4c83-ab8d-d2ec8c2661c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera files">
+      <UniqueIdentifier>{8a18c7da-bbea-4f1a-955a-3e105bfc7e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp loading">
+      <UniqueIdentifier>{602e4eb9-ccf4-4a3b-8628-3a288e9d1b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Entities">
+      <UniqueIdentifier>{d2a75674-52d6-4953-9356-70bb616959dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mediator">
+      <UniqueIdentifier>{6c286d91-9e3d-4c5f-a87b-6bc7a2442537}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TextureMapping\C24BitBMPpixel.cpp">
+      <Filter>TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\cBasicTextureManager.cpp">
+      <Filter>TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\CTextureFromBMP.cpp">
+      <Filter>TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cRollState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="cRunState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawObject_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Load3DModels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="theMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>Shader files</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>Shader files</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>Mesh files</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager.cpp">
+      <Filter>Mesh files</Filter>
+    </ClCompile>
+    <ClCompile Include="cLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightHelper.cpp">
+      <Filter>Light files</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>Light files</Filter>
+    </ClCompile>
+    <ClCompile Include="cGFLWKeyboardModifiers.cpp">
+      <Filter>Input files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_error_callback.cpp">
+      <Filter>Input files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_key_callback.cpp">
+      <Filter>Input files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandling.cpp">
+      <Filter>Input files</Filter>
+    </ClCompile>
+    <ClCompile Include="globalThings.cpp">
+      <Filter>Global files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shutdown.cpp">
+      <Filter>Global files</Filter>
+    </ClCompile>
+    <ClCompile Include="StartUp.cpp">
+      <Filter>Global files</Filter>
+    </ClCompile>
+    <ClCompile Include="cFBO.cpp">
+      <Filter>FBO</Filter>
+    </ClCompile>
+    <ClCompile Include="cFlyCamera.cpp">
+      <Filter>Camera files</Filter>
+    </ClCompile>
+    <ClCompile Include="cAiMesh.cpp">
+      <Filter>Assimp loading</Filter>
+    </ClCompile>
+    <ClCompile Include="cAnimation.cpp">
+      <Filter>Assimp loading</Filter>
+    </ClCompile>
+    <ClCompile Include="cAnimator.cpp">
+      <Filter>Assimp loading</Filter>
+    </ClCompile>
+    <ClCompile Include="cAssimpModel.cpp">
+      <Filter>Assimp loading</Filter>
+    </ClCompile>
+    <ClCompile Include="cBone.cpp">
+      <Filter>Assimp loading</Filter>
+    </ClCompile>
+    <ClCompile Include="untils.cpp">
+      <Filter>Assimp loading</Filter>
+    </ClCompile>
+    <ClCompile Include="cMediator.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="cMediatorImp.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoat.cpp">
+      <Filter>Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoatWorld.cpp">
+      <Filter>Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cIdleState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="cBlendState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyBoat.cpp">
+      <Filter>Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyManager.cpp">
+      <Filter>Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cRainDrop.cpp">
+      <Filter>Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeather.cpp">
+      <Filter>Game Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextureMapping\C24BitBMPpixel.h">
+      <Filter>TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\cBasicTextureManager.h">
+      <Filter>TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\CTextureFromBMP.h">
+      <Filter>TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cMeshState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="cRollState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="cRunState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>Shader files</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>Mesh files</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOManager.h">
+      <Filter>Mesh files</Filter>
+    </ClInclude>
+    <ClInclude Include="cLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightHelper.h">
+      <Filter>Light files</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>Light files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalThings.h">
+      <Filter>Global files</Filter>
+    </ClInclude>
+    <ClInclude Include="cFBO.h">
+      <Filter>FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="cFlyCamera.h">
+      <Filter>Camera files</Filter>
+    </ClInclude>
+    <ClInclude Include="iCamera.h">
+      <Filter>Camera files</Filter>
+    </ClInclude>
+    <ClInclude Include="cAiMesh.h">
+      <Filter>Assimp loading</Filter>
+    </ClInclude>
+    <ClInclude Include="cAnimation.h">
+      <Filter>Assimp loading</Filter>
+    </ClInclude>
+    <ClInclude Include="cAnimationController.h">
+      <Filter>Assimp loading</Filter>
+    </ClInclude>
+    <ClInclude Include="cAnimator.h">
+      <Filter>Assimp loading</Filter>
+    </ClInclude>
+    <ClInclude Include="cAssimpModel.h">
+      <Filter>Assimp loading</Filter>
+    </ClInclude>
+    <ClInclude Include="cBone.h">
+      <Filter>Assimp loading</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoat.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="iMessage.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="iMediator.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="cMediator.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="cMediatorImp.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoatWorld.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cIdleState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="cBlendState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="sCannonBall.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyBoat.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyManager.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeather.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cRainDrop.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
